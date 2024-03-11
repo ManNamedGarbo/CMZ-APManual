@@ -1,0 +1,166 @@
+[
+	{
+		"name": "Mine Wood",
+		"region": "Forest",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Mine Stone",
+		"region": "Forest",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Kill - Common Zombie",
+		"region": "Forest",
+		"category": ["First-Time Kill Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Kill - Red Zombie",
+		"region": "Elevated Forest",
+		"category": ["First-Time Kill Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Kill - Green Zombie",
+		"region": "Elevated Forest",
+		"category": ["First-Time Kill Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Kill - Sand Zombie",
+		"region": "Desert",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Grey Hell Zombie",
+		"region": "Hell on Earth",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Archer Skeleton",
+		"region": "Elevated Forest",
+		"category": ["First-Time Kill Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Kill - White Sword Skeleton",
+		"region": "Mountain",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Tundra Skeleton",
+		"region": "Tundra",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Dual-Axe Skeleton",
+		"region": "Tundra",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Hell Lord",
+		"region": "Hell on Earth",
+		"category": ["First-Time Mining Tasks"],
+		"requires": "|Gold Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Kill - Alien",
+		"region": "Hell on Earth",
+		"category": ["First-Time Kill Tasks"],
+		"requires": "|Diamond Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Travel 100m",
+		"region": "Forest",
+		"category": ["Travel Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Travel 500m",
+		"region": "Elevated Forest",
+		"category": ["Travel Tasks"],
+		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+	},
+	{
+		"name": "Travel 1000m",
+		"region": "Desert",
+		"category": ["Travel Tasks"],
+		"requires": "|Desert Access|"
+	},
+	{
+		"name": "Travel 2500m",
+		"region": "Mountain",
+		"category": ["Travel Tasks"],
+		"requires": "|Mountain Access|"
+	},
+	{
+		"name": "Travel 3500m",
+		"region": "Tundra",
+		"category": ["Travel Tasks"],
+		"requires": "|Tundra Access|"
+	},
+	{
+		"name": "Travel 4500m",
+		"region": "Hell on Earth",
+		"category": ["Travel Tasks"],
+		"requires": "|Orelands Access|, |Hell on Earth Access|"
+	},
+	{
+		"name": "Kill - Fire Dragon",
+		"region": "Forest",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Kill - Forest Dragon",
+		"region": "Elevated Forest",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Kill - Sand Dragon",
+		"region": "Desert",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Kill - Ice Dragon",
+		"region": "Tundra",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Kill - Undead Dragon",
+		"region": "Hell on Earth",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Mine Iron Ore",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Mine Gold Ore",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Mine Diamonds",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	},
+	{
+		"name": "Mine Bloodstone",
+		"category": ["First-Time Mining Tasks"],
+		"requires": []
+	}
+]

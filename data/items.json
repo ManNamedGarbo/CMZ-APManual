@@ -1,0 +1,218 @@
+[
+	{
+		"count":1,
+		"name": "Wood Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Wooden Sticks Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Copper Bar Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Iron Bar Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gold Bar Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Diamond Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Bloodstone Refining",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Space Rock Refining",
+		"category": ["Crafting Unlocks"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Space Goo Refining",
+		"category": ["Crafting Unlocks"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Brass Casing Recipe",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Iron Casing Recipe",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gold Casing Recipe",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Diamond Casing Recipe",
+		"category": ["Crafting Unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Copper Pickaxe Recipe",
+		"category": ["Tools"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Iron Pickaxe Recipe",
+		"category": ["Tools"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gold Pickaxe Recipe",
+		"category": ["Tools"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Diamond Pickaxe Recipe",
+		"category": ["Tools"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Bloodstone Pickaxe Recipe",
+		"category": ["Tools"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Knife Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Pistol Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Shotgun Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Rifle Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Assault Rifle Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "SMG Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "LMG Recipes",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Explosive Powder Refining",
+		"category": [],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Laser Sword Recipes",
+		"category": [],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Space Gun Recipes",
+		"category": [],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Axe Recipes (Tier Matches Highest Pickaxe)",
+		"category": ["Tools"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Shovel Recipes (Tier Matches Highest Pickaxe)",
+		"category": ["Tools"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Desert Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Mountain Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Tundra Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Orelands Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Hell on Earth Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "Mag Dump Trap",
+		"category": ["Traps"],
+		"trap": true
+	}
+]

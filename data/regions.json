@@ -1,0 +1,31 @@
+{
+	"Forest": 	{
+		"starting": true,
+		"connects_to": ["Elevated Forest"],
+		"requires": []
+	},
+	"Elevated Forest": 	{
+		"connects_to": ["Forest","Desert"],
+		"requires": []
+	},
+	"Desert": 	{
+		"connects_to": ["Elevated Forest","Mountain"],
+		"requires": "|Desert Access|"
+	},
+	"Mountain": 	{
+		"connects_to": ["Desert","Tundra"],
+		"requires": "|Mountain Access|"
+	},
+	"Tundra": 	{
+		"connects_to": ["Mountain","Orelands"],
+		"requires": "|Tundra Access|"
+	},
+	"Orelands": 	{
+		"connects_to": ["Tundra","Hell on Earth"],
+		"requires": "|Orelands Access|"
+	},
+	"Hell on Earth": 	{
+		"connects_to": ["Orelands"],
+		"requires": "|Hell on Earth Access|"
+}
+}
