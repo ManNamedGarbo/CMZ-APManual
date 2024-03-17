@@ -33,13 +33,13 @@
 		"name": "Kill - Sand Zombie",
 		"region": "Desert",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Grey Hell Zombie",
 		"region": "Hell on Earth",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Archer Skeleton",
@@ -51,116 +51,196 @@
 		"name": "Kill - White Sword Skeleton",
 		"region": "Mountain",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Tundra Skeleton",
 		"region": "Tundra",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Dual-Axe Skeleton",
 		"region": "Tundra",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Hell Lord",
 		"region": "Hell on Earth",
 		"category": ["First-Time Mining Tasks"],
-		"requires": "|Gold Casing Recipe|, |Wood Refining|"
+		"requires": "|Gold Casing Recipe| OR |Diamond Casing Recipe| AND |Wood Refining| AND |@Weapons:2| "
 	},
 	{
 		"name": "Kill - Alien",
 		"region": "Hell on Earth",
 		"category": ["First-Time Kill Tasks"],
-		"requires": "|Diamond Casing Recipe|, |Wood Refining|"
+		"requires": "|Gold Casing Recipe| OR |Diamond Casing Recipe| AND |Wood Refining| AND |@Weapons:2| "
 	},
 	{
-		"name": "Travel 100m",
+		"name": "First Contact - Travel 50m",
 		"region": "Forest",
 		"category": ["Travel Tasks"],
 		"requires": []
 	},
 	{
-		"name": "Travel 500m",
+		"name": "Here Be Islands - Travel 500m",
 		"region": "Elevated Forest",
 		"category": ["Travel Tasks"],
-		"requires": "|Brass Casing Recipe|, |Wood Refining|"
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |Elevated Forest Access|"
 	},
 	{
-		"name": "Travel 1000m",
+		"name": "Desert Crawler - Travel 1000m",
 		"region": "Desert",
 		"category": ["Travel Tasks"],
-		"requires": "|Desert Access|"
+		"requires": "|Elevated Forest Access| AND |Desert Access|"
 	},
 	{
-		"name": "Travel 2500m",
+		"name": "Mountain Man - Travel 2300m",
 		"region": "Mountain",
 		"category": ["Travel Tasks"],
-		"requires": "|Mountain Access|"
+		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access|"
 	},
 	{
-		"name": "Travel 3500m",
+		"name": "Deep Freeze - Travel 3000m",
 		"region": "Tundra",
 		"category": ["Travel Tasks"],
-		"requires": "|Tundra Access|"
+		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access|"
 	},
 	{
-		"name": "Travel 4500m",
+		"name": "Hell on Earth - Travel 3600m",
 		"region": "Hell on Earth",
 		"category": ["Travel Tasks"],
-		"requires": "|Orelands Access|, |Hell on Earth Access|"
+		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Orelands Access| AND |Hell on Earth Access|"
 	},
 	{
 		"name": "Kill - Fire Dragon",
 		"region": "Forest",
-		"category": [],
-		"requires": []
+		"category": ["Dragons"],
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Forest Dragon",
 		"region": "Elevated Forest",
-		"category": [],
-		"requires": []
+		"category": ["Dragons"],
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Sand Dragon",
 		"region": "Desert",
-		"category": [],
-		"requires": []
+		"category": ["Dragons"],
+		"requires": "|Brass Casing Recipe| AND |Wood Refining| AND |@Weapons:1| "
 	},
 	{
 		"name": "Kill - Ice Dragon",
 		"region": "Tundra",
-		"category": [],
-		"requires": []
+		"category": ["Dragons"],
+		"requires": "|Gold Casing Recipe| OR |Diamond Casing Recipe| AND |Wood Refining| AND |@Weapons:2| "
 	},
 	{
 		"name": "Kill - Undead Dragon",
 		"region": "Hell on Earth",
-		"category": [],
-		"requires": []
+		"category": ["Dragons","Victory Conditions"],
+		"requires": "|Gold Casing Recipe| OR |Diamond Casing Recipe| AND |Wood Refining| AND |@Weapons:2| ",
+		"victory": false,
+		"place_item": ["Undead Dragon Defeated"]
 	},
 	{
 		"name": "Mine Iron Ore",
 		"category": ["First-Time Mining Tasks"],
-		"requires": []
+		"requires": "|Wood Refining|",
+		"region": "Forest"
 	},
 	{
 		"name": "Mine Gold Ore",
 		"category": ["First-Time Mining Tasks"],
-		"requires": []
+		"requires": "|Iron Bar Refining| AND |Wood Refining|",
+		"region": "Forest"
 	},
 	{
 		"name": "Mine Diamonds",
 		"category": ["First-Time Mining Tasks"],
-		"requires": []
+		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining|",
+		"region": "Forest"
 	},
 	{
 		"name": "Mine Bloodstone",
 		"category": ["First-Time Mining Tasks"],
-		"requires": []
+		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining|",
+		"region": "Forest"
+	},
+	{
+		"name": "Smelt Copper Bar",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Copper Bar Refining|"
+	},
+	{
+		"name": "Smelt Iron Bar",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Iron Bar Refining|"
+	},
+	{
+		"name": "Smelt Gold Bar",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Gold Bar Refining|"
+	},
+	{
+		"name": "Craft Copper Pickaxe",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Copper Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Craft Iron Pickaxe",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Iron Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Craft Gold Pickaxe",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Craft Diamond Pickaxe",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Gold Bar Refining| AND |Diamond Refining| AND |Iron Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Craft Bloodstone Pickaxe",
+		"region": "Forest",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Craft Any Alien Item",
+		"region": "Tundra",
+		"category": ["First-Time Crafting Tasks"],
+		"requires": "|Alien Resource Refining| AND |Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining|"
+	},
+	{
+		"name": "Leaving Home - Travel 200m",
+		"region": "Elevated Forest",
+		"category": ["Travel Tasks"],
+		"requires": "|Brass Casing Recipe| AND |Wood Refining|"
+	},
+	{
+		"region": "Hell on Earth",
+		"name": "Around the World - Travel 5000m",
+		"category": ["Travel Tasks","Victory Conditions"],
+		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Orelands Access| AND |Hell on Earth Access|",
+		"place_item": ["Round Trip Completed"]
+	},
+	{
+		"name": "Undead Dragon Defeated and Round Trip Completed",
+		"victory": true,
+		"region": "Hell on Earth",
+		"category": [],
+		"requires": "|Undead Dragon Defeated| AND |Round Trip Completed| AND |Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Orelands Access| AND |Hell on Earth Access|"
 	}
 ]

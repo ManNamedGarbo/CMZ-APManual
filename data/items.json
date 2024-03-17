@@ -43,15 +43,9 @@
 	},
 	{
 		"count":1,
-		"name": "Space Rock Refining",
+		"name": "Alien Resource Refining",
 		"category": ["Crafting Unlocks"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Space Goo Refining",
-		"category": ["Crafting Unlocks"],
-		"useful": true
+		"progression": true
 	},
 	{
 		"count":1,
@@ -80,103 +74,103 @@
 	{
 		"count":1,
 		"name": "Copper Pickaxe Recipe",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Iron Pickaxe Recipe",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Gold Pickaxe Recipe",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Diamond Pickaxe Recipe",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Bloodstone Pickaxe Recipe",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Knife Recipes",
-		"category": ["Weapons"],
-		"progression": true
+		"category": ["Weapons","Crafting Unlocks"],
+		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Pistol Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Shotgun Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Rifle Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Assault Rifle Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "SMG Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "LMG Recipes",
-		"category": ["Weapons"],
+		"category": ["Weapons","Crafting Unlocks"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Explosive Powder Refining",
-		"category": [],
+		"category": ["Weapons","Crafting Unlocks"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Laser Sword Recipes",
-		"category": [],
+		"category": ["Tools","Crafting Unlocks"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Space Gun Recipes",
-		"category": [],
+		"category": ["Weapons","Crafting Unlocks"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Axe Recipes (Tier Matches Highest Pickaxe)",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Shovel Recipes (Tier Matches Highest Pickaxe)",
-		"category": ["Tools"],
+		"category": ["Tools","Crafting Unlocks"],
 		"useful": true
 	},
 	{
@@ -214,5 +208,23 @@
 		"name": "Mag Dump Trap",
 		"category": ["Traps"],
 		"trap": true
+	},
+	{
+		"count":1,
+		"name": "Elevated Forest Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Round Trip Completed",
+		"category": ["Victory Conditions"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Undead Dragon Defeated",
+		"category": ["Victory Conditions"],
+		"progression": true
 	}
 ]
