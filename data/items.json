@@ -7,12 +7,6 @@
 	},
 	{
 		"count":1,
-		"name": "Wooden Sticks Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
 		"name": "Copper Bar Refining",
 		"category": ["Crafting Unlocks"],
 		"progression": true
@@ -49,129 +43,27 @@
 	},
 	{
 		"count":1,
-		"name": "Brass Casing Recipe",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Iron Casing Recipe",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Gold Casing Recipe",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Diamond Casing Recipe",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Copper Pickaxe Recipe",
-		"category": ["Tools","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Iron Pickaxe Recipe",
-		"category": ["Tools","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Gold Pickaxe Recipe",
-		"category": ["Tools","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Diamond Pickaxe Recipe",
-		"category": ["Tools","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Bloodstone Pickaxe Recipe",
-		"category": ["Tools","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Knife Recipes",
+		"name": "Knives",
 		"category": ["Weapons","Crafting Unlocks"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Pistol Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Shotgun Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Rifle Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Assault Rifle Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "SMG Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "LMG Recipes",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
+		"filler": true
 	},
 	{
 		"count":1,
 		"name": "Explosive Powder Refining",
 		"category": ["Weapons","Crafting Unlocks"],
-		"useful": true
+		"progression": true
 	},
 	{
 		"count":1,
-		"name": "Laser Sword Recipes",
+		"name": "Laser Swords",
 		"category": ["Tools","Crafting Unlocks"],
-		"useful": true
+		"filler": true
 	},
 	{
 		"count":1,
-		"name": "Space Gun Recipes",
+		"name": "Space Guns",
 		"category": ["Weapons","Crafting Unlocks"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Axe Recipes (Tier Matches Highest Pickaxe)",
-		"category": ["Tools","Crafting Unlocks"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Shovel Recipes (Tier Matches Highest Pickaxe)",
-		"category": ["Tools","Crafting Unlocks"],
-		"useful": true
+		"filler": true
 	},
 	{
 		"count":1,
@@ -193,21 +85,9 @@
 	},
 	{
 		"count":1,
-		"name": "Orelands Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
 		"name": "Hell on Earth Access",
 		"category": ["Biome Access"],
 		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "Mag Dump Trap",
-		"category": ["Traps"],
-		"trap": true
 	},
 	{
 		"count":1,
@@ -226,5 +106,41 @@
 		"name": "Undead Dragon Defeated",
 		"category": ["Victory Conditions"],
 		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Tools",
+		"category": ["Progressive Items"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Small Weapons",
+		"category": ["Progressive Items","Small Weapons"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Big Weapons",
+		"category": ["Progressive Items","Big Weapons"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Ammunition",
+		"category": ["Progressive Items","Ammo"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Underground Hell Access",
+		"category": ["Biome Access"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Orelands Mining Pass",
+		"category": ["Biome Access"],
+		"filler": true
 	}
 ]

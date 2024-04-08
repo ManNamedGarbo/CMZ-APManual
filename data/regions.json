@@ -17,15 +17,15 @@
 		"requires": "|Mountain Access|"
 	},
 	"Tundra": 	{
-		"connects_to": ["Mountain","Orelands"],
+		"connects_to": ["Mountain","Orelands","Hell on Earth"],
 		"requires": "|Tundra Access|"
 	},
 	"Orelands": 	{
 		"connects_to": ["Tundra","Hell on Earth"],
-		"requires": "|Orelands Access|"
+		"requires": []
 	},
 	"Hell on Earth": 	{
-		"connects_to": ["Orelands"],
+		"connects_to": ["Orelands","Tundra"],
 		"requires": "|Hell on Earth Access|"
 }
 }
