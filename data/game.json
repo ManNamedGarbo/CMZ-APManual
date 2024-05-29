@@ -1,2 +1,6 @@
-
-	{"game": "CastleMinerZ","creator": "Garbo","filler_item_name": "Nothing Trap"}
+{
+  "game": "CastleMinerZ",
+  "creator": "Garbo",
+  "filler_item_name": "Nothing Trap",
+  "death_link": true
+}
