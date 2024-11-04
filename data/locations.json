@@ -1,294 +1,394 @@
 [
-	{
-		"name": "Mine Wood",
-		"region": "Forest",
-		"category": ["First-Time Mining Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Mine Stone",
-		"region": "Forest",
-		"category": ["First-Time Mining Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill - Common Zombie",
-		"region": "Forest",
-		"category": ["First-Time Kill Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill - Red Zombie",
-		"region": "Elevated Forest",
-		"category": ["First-Time Kill Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill - Green Zombie",
-		"region": "Elevated Forest",
-		"category": ["First-Time Kill Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill - Sand Zombie",
-		"region": "Desert",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Grey Hell Zombie",
-		"region": "Hell on Earth",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Archer Skeleton",
-		"region": "Elevated Forest",
-		"category": ["First-Time Kill Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill - White Sword Skeleton",
-		"region": "Mountain",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Tundra Skeleton",
-		"region": "Tundra",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Dual-Axe Skeleton",
-		"region": "Tundra",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Hell Lord",
-		"region": "Hell on Earth",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:2| AND |Wood Refining| AND (|@Small Weapons:2| OR |@Big Weapons:1|) AND |Iron Bar Refining| AND |Gold Bar Refining|"
-	},
-	{
-		"name": "Kill - Alien",
-		"region": "Hell on Earth",
-		"category": ["First-Time Kill Tasks"],
-		"requires": "|@Ammo:2| AND |Wood Refining| AND (|@Small Weapons:2| OR |@Big Weapons:1|) AND |Iron Bar Refining| AND |Gold Bar Refining|"
-	},
-	{
-		"name": "First Contact - Travel 50m",
-		"region": "Forest",
-		"category": ["Travel Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Here Be Islands - Travel 500m",
-		"region": "Elevated Forest",
-		"category": ["Travel Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND |Elevated Forest Access|"
-	},
-	{
-		"name": "Desert Crawler - Travel 1000m",
-		"region": "Desert",
-		"category": ["Travel Tasks"],
-		"requires": "|Elevated Forest Access| AND |Desert Access|"
-	},
-	{
-		"name": "Mountain Man - Travel 2300m",
-		"region": "Mountain",
-		"category": ["Travel Tasks"],
-		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access|"
-	},
-	{
-		"name": "Deep Freeze - Travel 3000m",
-		"region": "Tundra",
-		"category": ["Travel Tasks"],
-		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access|"
-	},
-	{
-		"name": "Hell on Earth - Travel 3600m",
-		"region": "Hell on Earth",
-		"category": ["Travel Tasks"],
-		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|"
-	},
-	{
-		"name": "Kill - Fire Dragon",
-		"region": "Forest",
-		"category": ["Dragons"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Forest Dragon",
-		"region": "Elevated Forest",
-		"category": ["Dragons"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Sand Dragon",
-		"region": "Desert",
-		"category": ["Dragons"],
-		"requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Kill - Ice Dragon",
-		"region": "Tundra",
-		"category": ["Dragons"],
-		"requires": "|@Ammo:2| AND |Wood Refining| AND |@Small Weapons:1| AND |@Big Weapons:1| AND |Iron Bar Refining| AND |Gold Bar Refining|"
-	},
-	{
-		"name": "Kill - Undead Dragon",
-		"region": "Hell on Earth",
-		"category": ["Dragons","Victory Conditions"],
-		"requires": "|@Ammo:2| AND |Wood Refining| AND |@Small Weapons:1| AND |@Big Weapons:1| AND |Iron Bar Refining| AND |Gold Bar Refining|",
-		"victory": false,
-		"place_item": ["Undead Dragon Defeated"]
-	},
-	{
-		"name": "Mine Iron Ore",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1|",
-		"region": "Forest"
-	},
-	{
-		"name": "Mine Gold Ore",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:2|",
-		"region": "Forest"
-	},
-	{
-		"name": "Mine Diamonds",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining| AND |@Progressive Tools:3|",
-		"region": "Forest"
-	},
-	{
-		"name": "Mine Bloodstone",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:4|",
-		"region": "Forest"
-	},
-	{
-		"name": "Smelt Copper Bar",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Copper Bar Refining|"
-	},
-	{
-		"name": "Smelt Iron Bar",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Iron Bar Refining|"
-	},
-	{
-		"name": "Smelt Gold Bar",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Gold Bar Refining|"
-	},
-	{
-		"name": "Craft Copper Pickaxe",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1|"
-	},
-	{
-		"name": "Craft Iron Pickaxe",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Iron Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Craft Gold Pickaxe",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining| AND |@Progressive Tools:4| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Craft Diamond Pickaxe",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Gold Bar Refining| AND |Diamond Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Craft Bloodstone Pickaxe",
-		"region": "Forest",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Craft Any Alien Item",
-		"region": "Tundra",
-		"category": ["First-Time Crafting Tasks"],
-		"requires": "|Alien Resource Refining| AND |Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Leaving Home - Travel 200m",
-		"region": "Elevated Forest",
-		"category": ["Travel Tasks"],
-		"requires": "|@Ammo:1| AND |Wood Refining|"
-	},
-	{
-		"region": "Hell on Earth",
-		"name": "Around the World - Travel 5000m",
-		"category": ["Travel Tasks","Victory Conditions"],
-		"requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|",
-		"place_item": ["Round Trip Completed"]
-	},
-	{
-		"name": "Undead Dragon Defeated and Round Trip Completed",
-		"victory": true,
-		"region": "Hell on Earth",
-		"category": [],
-		"requires": "|Undead Dragon Defeated| AND |Round Trip Completed| AND |Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|"
-	},
-	{
-		"region": "Forest",
-		"name": "Mine Copper Ore",
-		"category": ["First-Time Mining Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Survive the First Night",
-		"region": "Forest",
-		"category": ["Miscellaneous Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Defeat a Monster Spawner",
-		"region": "Forest",
-		"category": ["Miscellaneous Tasks"],
-		"requires": "|@Small Weapons:2| AND |@Ammo:2| AND |@Big Weapons:1| AND |Wood Refining| AND |Iron Bar Refining|"
-	},
-	{
-		"name": "Reach the top of the Bedrock Tower",
-		"region": "Forest",
-		"category": ["Miscellaneous Tasks"],
-		"requires": []
-	},
-	{
-		"name": "Kill any enemy with Explosives",
-		"region": "Forest",
-		"category": ["Miscellaneous Tasks"],
-		"requires": "|Explosive Powder Refining|"
-	},
-	{
-		"name": "Mine Space Goo",
-		"region": "Mountain",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:5| AND |Bloodstone Refining| AND |Copper Bar Refining|"
-	},
-	{
-		"name": "Enter Hell from Underground",
-		"region": "Forest",
-		"category": ["Travel Tasks"],
-		"requires": "|Wood Refining| AND |@Progressive Tools:1| AND |@Ammo:1| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Underground Hell Access|"
-	},
-	{
-		"name": "Mine Space Rock",
-		"region": "Mountain",
-		"category": ["First-Time Mining Tasks"],
-		"requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:5| AND |Bloodstone Refining| AND |Copper Bar Refining|"
-	}
+  {
+    "name": "Mine Wood",
+    "region": "Forest",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mine Stone",
+    "region": "Forest",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill - Common Zombie",
+    "region": "Forest",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill - Red Zombie",
+    "region": "Elevated Forest",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill - Green Zombie",
+    "region": "Elevated Forest",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill - Sand Zombie",
+    "region": "Desert",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Grey Hell Zombie",
+    "region": "Hell on Earth",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Archer Skeleton",
+    "region": "Elevated Forest",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill - White Sword Skeleton",
+    "region": "Mountain",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Tundra Skeleton",
+    "region": "Tundra",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Dual-Axe Skeleton",
+    "region": "Tundra",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Hell Lord",
+    "region": "Hell on Earth",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:2| AND |Wood Refining| AND (|@Small Weapons:2| OR |@Big Weapons:1|) AND |Iron Bar Refining| AND |Gold Bar Refining|"
+  },
+  {
+    "name": "Kill - Alien",
+    "region": "Hell on Earth",
+    "category": [
+      "First-Time Kill Tasks"
+    ],
+    "requires": "|@Ammo:2| AND |Wood Refining| AND (|@Small Weapons:2| OR |@Big Weapons:1|) AND |Iron Bar Refining| AND |Gold Bar Refining|"
+  },
+  {
+    "name": "First Contact - Travel 50m",
+    "region": "Forest",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Here Be Islands - Travel 500m",
+    "region": "Elevated Forest",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND |Elevated Forest Access|"
+  },
+  {
+    "name": "Desert Crawler - Travel 1000m",
+    "region": "Desert",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|Elevated Forest Access| AND |Desert Access|"
+  },
+  {
+    "name": "Mountain Man - Travel 2300m",
+    "region": "Mountain",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access|"
+  },
+  {
+    "name": "Deep Freeze - Travel 3000m",
+    "region": "Tundra",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access|"
+  },
+  {
+    "name": "Hell on Earth - Travel 3600m",
+    "region": "Hell on Earth",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|"
+  },
+  {
+    "name": "Kill - Fire Dragon",
+    "region": "Forest",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Forest Dragon",
+    "region": "Elevated Forest",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Sand Dragon",
+    "region": "Desert",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Kill - Ice Dragon",
+    "region": "Tundra",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|@Ammo:2| AND |Wood Refining| AND |@Small Weapons:1| AND |@Big Weapons:1| AND |Iron Bar Refining| AND |Gold Bar Refining|"
+  },
+  {
+    "name": "Kill - Undead Dragon",
+    "region": "Hell on Earth",
+    "category": [
+      "Dragons",
+      "Victory Conditions"
+    ],
+    "requires": "|@Ammo:2| AND |Wood Refining| AND |@Small Weapons:1| AND |@Big Weapons:1| AND |Iron Bar Refining| AND |Gold Bar Refining|",
+    "victory": false,
+    "place_item": [
+      "Undead Dragon Defeated"
+    ]
+  },
+  {
+    "name": "Mine Iron Ore",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1|",
+    "region": "Forest"
+  },
+  {
+    "name": "Mine Gold Ore",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:2|",
+    "region": "Forest"
+  },
+  {
+    "name": "Mine Diamonds",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining| AND |@Progressive Tools:3|",
+    "region": "Forest"
+  },
+  {
+    "name": "Mine Bloodstone",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Copper Bar Refining| AND |Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:4|",
+    "region": "Forest"
+  },
+  {
+    "name": "Smelt Copper Bar",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Copper Bar Refining|"
+  },
+  {
+    "name": "Smelt Iron Bar",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Iron Bar Refining|"
+  },
+  {
+    "name": "Smelt Gold Bar",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Gold Bar Refining|"
+  },
+  {
+    "name": "Craft Copper Pickaxe",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Copper Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1|"
+  },
+  {
+    "name": "Craft Iron Pickaxe",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Iron Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Craft Gold Pickaxe",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Wood Refining| AND |@Progressive Tools:4| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Craft Diamond Pickaxe",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Gold Bar Refining| AND |Diamond Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |@Progressive Tools:1| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Craft Bloodstone Pickaxe",
+    "region": "Forest",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Craft Any Alien Item",
+    "region": "Tundra",
+    "category": [
+      "First-Time Crafting Tasks"
+    ],
+    "requires": "|Alien Resource Refining| AND |Diamond Refining| AND |Bloodstone Refining| AND |Gold Bar Refining| AND |Iron Bar Refining| AND |Wood Refining| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Leaving Home - Travel 200m",
+    "region": "Elevated Forest",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|@Ammo:1| AND |Wood Refining|"
+  },
+  {
+    "region": "Hell on Earth",
+    "name": "Around the World - Travel 5000m",
+    "category": [
+      "Travel Tasks",
+      "Victory Conditions"
+    ],
+    "requires": "|Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|",
+    "place_item": [
+      "Round Trip Completed"
+    ]
+  },
+  {
+    "name": "Undead Dragon Defeated and Round Trip Completed",
+    "victory": true,
+    "region": "Hell on Earth",
+    "category": [],
+    "requires": "|Undead Dragon Defeated| AND |Round Trip Completed| AND |Elevated Forest Access| AND |Desert Access| AND |Mountain Access| AND |Tundra Access| AND |Hell on Earth Access|"
+  },
+  {
+    "region": "Forest",
+    "name": "Mine Copper Ore",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Survive the First Night",
+    "region": "Forest",
+    "category": [
+      "Miscellaneous Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Defeat a Monster Spawner",
+    "region": "Forest",
+    "category": [
+      "Miscellaneous Tasks"
+    ],
+    "requires": "|@Small Weapons:2| AND |@Ammo:2| AND |@Big Weapons:1| AND |Wood Refining| AND |Iron Bar Refining|"
+  },
+  {
+    "name": "Reach the top of the Bedrock Tower",
+    "region": "Forest",
+    "category": [
+      "Miscellaneous Tasks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kill any enemy with Explosives",
+    "region": "Forest",
+    "category": [
+      "Miscellaneous Tasks"
+    ],
+    "requires": "|Explosive Powder Refining|"
+  },
+  {
+    "name": "Mine Space Goo",
+    "region": "Mountain",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:5| AND |Bloodstone Refining| AND |Copper Bar Refining|"
+  },
+  {
+    "name": "Enter Hell from Underground",
+    "region": "Forest",
+    "category": [
+      "Travel Tasks"
+    ],
+    "requires": "|Wood Refining| AND |@Progressive Tools:1| AND |@Ammo:1| AND (|@Small Weapons:1| OR |@Big Weapons:1|) AND |Underground Hell Access|"
+  },
+  {
+    "name": "Mine Space Rock",
+    "region": "Mountain",
+    "category": [
+      "First-Time Mining Tasks"
+    ],
+    "requires": "|Iron Bar Refining| AND |Gold Bar Refining| AND |Diamond Refining| AND |Wood Refining| AND |@Progressive Tools:5| AND |Bloodstone Refining| AND |Copper Bar Refining|"
+  }
 ]

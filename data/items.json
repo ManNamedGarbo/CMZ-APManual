@@ -1,146 +1,201 @@
 [
-	{
-		"count":1,
-		"name": "Wood Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Copper Bar Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Iron Bar Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Gold Bar Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Diamond Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Bloodstone Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Alien Resource Refining",
-		"category": ["Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Knives",
-		"category": ["Weapons","Crafting Unlocks"],
-		"filler": true
-	},
-	{
-		"count":1,
-		"name": "Explosive Powder Refining",
-		"category": ["Weapons","Crafting Unlocks"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Laser Swords",
-		"category": ["Tools","Crafting Unlocks"],
-		"filler": true
-	},
-	{
-		"count":1,
-		"name": "Space Guns",
-		"category": ["Weapons","Crafting Unlocks"],
-		"filler": true
-	},
-	{
-		"count":1,
-		"name": "Desert Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Mountain Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Tundra Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Hell on Earth Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Elevated Forest Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Round Trip Completed",
-		"category": ["Victory Conditions"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Undead Dragon Defeated",
-		"category": ["Victory Conditions"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Progressive Tools",
-		"category": ["Progressive Items"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Progressive Small Weapons",
-		"category": ["Progressive Items","Small Weapons"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Progressive Big Weapons",
-		"category": ["Progressive Items","Big Weapons"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Progressive Ammunition",
-		"category": ["Progressive Items","Ammo"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Underground Hell Access",
-		"category": ["Biome Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Orelands Mining Pass",
-		"category": ["Biome Access"],
-		"filler": true
-	}
+  {
+    "count": 1,
+    "name": "Wood Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Copper Bar Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Iron Bar Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gold Bar Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Diamond Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bloodstone Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Alien Resource Refining",
+    "category": [
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Knives",
+    "category": [
+      "Weapons",
+      "Crafting Unlocks"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Explosive Powder Refining",
+    "category": [
+      "Weapons",
+      "Crafting Unlocks"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Laser Swords",
+    "category": [
+      "Tools",
+      "Crafting Unlocks"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Space Guns",
+    "category": [
+      "Weapons",
+      "Crafting Unlocks"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Desert Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mountain Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tundra Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hell on Earth Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Elevated Forest Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Round Trip Completed",
+    "category": [
+      "Victory Conditions"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Undead Dragon Defeated",
+    "category": [
+      "Victory Conditions"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Tools",
+    "category": [
+      "Progressive Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Small Weapons",
+    "category": [
+      "Progressive Items",
+      "Small Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Big Weapons",
+    "category": [
+      "Progressive Items",
+      "Big Weapons"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Ammunition",
+    "category": [
+      "Progressive Items",
+      "Ammo"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Underground Hell Access",
+    "category": [
+      "Biome Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Orelands Mining Pass",
+    "category": [
+      "Biome Access"
+    ],
+    "filler": true
+  }
 ]
